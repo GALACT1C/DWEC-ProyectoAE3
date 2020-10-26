@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="#"></script>
+        <style src="#"></style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+              <legend><b>Formulario de solicitud de datos</b></legend>
+              <p>
+                <label for="nombreyapellidos">Nombre y apellidos:</label>
+                <input type="text" id="nombreyapellidos" name="username" required>
+              </p>
+              <p>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" name="size" id="fecha" name="date" required>
+              </p>
+              <p>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="address">
+              </p>
+              <p>
+                <label for="codigopostal">Código postal:</label>
+                <input type="number" id="codigopostal" name="postal_code" required>
+              </p>
+              <p>
+                <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="province" required>
+                        <option value="" selected="selected">- selecciona -</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="castellon">Castellón</option>
+                        <option value="Alicante">Alicante</option>
+                    </select>
+              </p>
+              <p>
+                <label for="municipio">Municipio:</label>
+                <input type="text" id="municipio" name="municipality" required>
+              </p>
+              <p>
+                <button type="submit">Enviar información</button>
+              </p>
+            </fieldset>
+          </form>
+    </body>
+</html>

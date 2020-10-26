@@ -1,6 +1,6 @@
 {
   "name": "proyectoae3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Proyecto evaluable en javascript gestionado por node",
   "main": "index.js",
   "scripts": {
