@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DWEC-AE3</title>
+        <script src="/scripts/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+    </head>
+    <body>
+        <section class="s1">
+            <article>
+                <h1><b>Formulario</b></h1>
+                <h3><i>Apartado donde se muestra el formulario</i></h3>
+            </article>
+        </section>
+        <section class="s2">
+            <article>
+                    <form name="form" id="form">
+                        <fieldset>
+                        <legend><b>Formulario de solicitud de datos</b></legend>
+                        <p>
+                            <label for="nombre">Nombre y apellidos:</label>
+                            <input type="text" id="nombre" required>*
+                        </p>
+                        <p>
+                            <label for="date">Fecha de nacimiento:</label>
+                            <input type="date" id="date" required>*
+                        </p>
+                        <p>
+                            <label for="direccion">Dirección:</label>
+                            <input type="text" id="direccion">
+                        </p>
+                        <p>
+                            <label for="codigopostal">Código postal:</label>
+                            <input type="number" id="cp" minlength="5" maxlength="5" required>*
+                        </p>
+                        <p>
+                            <label for="provincia">Provincia:</label>
+                                <select name="lista" id="provincia" required>
+                                    <option selected="selected" value=""> - selecciona - </option>
+                                    <option value="Valencia"> Valencia </option>
+                                    <option value="Alicante"> Alicante </option>
+                                    <option value="Castellón"> Castellón </option>
+                                </select>*
+                        </p>
+                        <p>
+                            <label for="municipio">Municipio:</label>
+                            <input type="text" id="municipio" required>*
+                        </p>
+                        <p>
+                            <input type="submit" id="submitbutton" value="Enviar información" />
+                        </p>
+                        </fieldset>
+                    </form>
+            </article>
+        </section>
+        <br>
+        <footer>
+            <div class="s1">
+                <button id="boton1">Siguiente página</button>
+            </div>
+            <div class="s2">
+                <button id="boton2">Atrás</button>
+            </div>
+        </footer>
+    </body>
+</html>
